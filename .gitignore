@@ -1,0 +1,21 @@
+# Lokale Konfiguration und Secrets
+.env
+.env.*
+!.env.example
+*.secret
+*secrets*
+
+# Logs, Laufzeitdaten und lokale Caches
+*.log
+log/
+logs/
+.cache/
+cache/
+tmp/
+temp/
+
+# Betriebssystem und Editoren
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
